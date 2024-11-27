@@ -1,0 +1,77 @@
+body {
+  background-image: url(imgs/SnowflakesBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.snowman {
+  width: 400px;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Base styling for all snowman elements */
+.snowman {
+  width: 400px;
+  height: 400px;
+  display: none; /* Hidden by default */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Specific snowman states with images */
+#bored {
+  background-image: url('imgs/BoredSnowman.png');
+}
+
+#confused {
+  background-image: url('imgs/ConfusedSnowman.png');
+}
+
+#happy {
+  background-image: url('imgs/HappySnowman.png');
+}
+
+#mad {
+  background-image: url('imgs/MadSnowman.png');
+}
+
+#sad {
+  background-image: url('imgs/SadSnowman.png');
+}

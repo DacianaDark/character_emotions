@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Snowman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="bored" class="snowman"></div>
+    <div id="confused" class="snowman"></div>
+    <div id="happy" class="snowman"></div>
+    <div id="mad" class="snowman"></div>
+    <div id="sad" class="snowman"></div>
+  </div>
+  <div id="controls">
+    <button onclick="changeState('bored')">Bored</button>
+    <button onclick="changeState('confused')">Confused</button>
+    <button onclick="changeState('happy')">Happy</button>
+    <button onclick="changeState('mad')">Mad</button>
+    <button onclick="changeState('sad')">Sad</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="newscript.js" defer></script>
+</body>
+
+</html>
