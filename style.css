@@ -22,6 +22,7 @@ body {
 .snowman {
   width: 400px;
   height: 400px;
+  margin: 100px;
   border: none;
   border-radius: 10px;
 }
